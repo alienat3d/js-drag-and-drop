@@ -1,0 +1,49 @@
+body {
+    background-color: #333;
+}
+
+.space {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.zone-1,
+.zone-2,
+.zone-3,
+.zone-4 {
+    margin-bottom: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zone-1 {
+    background-image: url("img/01.jpg");
+}
+
+.zone-2 {
+    background-image: url("img/02.jpg");
+}
+
+.zone-3 {
+    background-image: url("img/03.jpg");
+}
+
+.zone-4 {
+    background-image: url("img/04.jpg");
+}
+
+.ufo {
+    cursor: move;
+    max-height: 150px;
+}
